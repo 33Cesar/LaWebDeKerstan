@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  color: #000;
+}
+
+body {
+  font-family: 'Trade Winds', cursive;
+  position: relative;
+  color: #000;
+  font-size: 100%;
+}
+
+#backgroundImage {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+video {
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+#audioContainer {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+}
+
+#audioContainer audio {
+  display: none;
+  color: #000000;
+}
+
+#audioControls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #000000;
+  background-color: #3f1f02;
+  padding: 5%;
+}
+
+#audioControls button {
+  background-color: #330000;
+  border: none;
+  color: #333;
+  padding: 10% 20%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+#audioControls button:hover {
+  background-color: #360202;
+  color: #000;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 35%;
+  text-align: center;
+  color: #000;
+}
+
+.navbar {
+  background-color: rgba(122, 110, 104, 0.6);
+  border-color: rgba(36, 25, 12, 0);
+  text-align: center;
+  align-items: center;
+  font-size: 230%;
+  color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ddca1c;
+}
+
+.icon-bar {
+  color: #000000;
+}
+
+.titulo {
+  position: relative;
+  text-align: center;
+  padding: 2%;
+  font-size: 650%;
+  text-decoration: overline;
+  color: black;
+}
+
+main{
+  font-size: 300%;
+}
+
+main p {
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  width: fit-content;
+  height: fit-content;
+  color: rgb(160, 108, 29);
+  background-color: rgba(78, 71, 67, 0.4);
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  font-size: 250%;
+  background-color: rgba(78, 71, 67, 0.4);
+  color: rgb(136, 84, 6);
+  text-decoration: overline;
+}
+
+article p {
+  text-align: left;
+  position: relative;
+  font-size: 125%;
+  color: rgb(160, 108, 29);
+  text-decoration: underline;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(78, 71, 67, 0.4);
+  padding: 2%;
+}
+
+p {
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgba(78, 71, 67, 0.4);
+  color: rgb(160, 108, 29);
+  padding: 2%;
+}
+
+article {
+  text-align: left;
+  position: relative;
+  font-size: 230%;
+  color: rgb(160, 108, 29);
+  padding: 0%;
+}
+
+form {
+  max-width: 100%;
+  margin: 0;
+  
+  position: relative;
+  margin-bottom: 5%;
+  font-size: 230%;
+}
+
+label {
+  display: block;
+  margin-top: 2%;
+  font-size: 100%;
+  color: #d6ab73;
+}
+
+#email {
+  color: #d6ab73;
+}
+
+input {
+  width: 25%;
+  
+  margin-top: 2%;
+  
+}
+
+button {
+  margin-top: 2%;
+}
+
+footer p {
+  font-size: 230%;
+  position: relative;
+  text-align: center;
+  color: rgb(175, 130, 63);
+  background-color: rgba(71, 52, 44, 0.6);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15%;
+  align-items: center;
+  padding: 2%;
+}
+
+footer {
+  text-align: center;
+}
+
+#darkButton {
+  position: fixed;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding: 1%;
+  right: 2%;
+  z-index: 9999;
+  background-color: rgb(151, 95, 21);
+}
+
+.dark-mode {
+  color: #000000;
+}
+
+.container {
+  width: fit-content;
+  color: #bd9696;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #96b158;
+}
+
+.dark-mode-text {
+  color: #96b158;
+}
